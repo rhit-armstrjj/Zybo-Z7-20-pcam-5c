@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Tue Jun 23 22:36:41 2020'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Tue May  7 16:31:25 2024'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="2552052" description="" />
-  <keyValuePair key="date_generated" value="Tue Jun 23 22:36:40 2020" description="" />
+  <keyValuePair key="date_generated" value="Tue May  7 16:31:25 2024" description="" />
   <keyValuePair key="os_platform" value="WIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2019.1 (64-bit)" description="" />
-  <keyValuePair key="project_id" value="295d6feb35b141368bd200d99694ef78" description="" />
-  <keyValuePair key="project_iteration" value="1" description="" />
-  <keyValuePair key="random_id" value="8eaddc7e20e25c63a042017b8e6285f7" description="" />
-  <keyValuePair key="registration_id" value="206924054_1777514562_210701399_848" description="" />
+  <keyValuePair key="project_id" value="20921e688a49493389ec1c0913082ffa" description="" />
+  <keyValuePair key="project_iteration" value="2" description="" />
+  <keyValuePair key="random_id" value="e16db4d240635932ad32f472a10bb2ea" description="" />
+  <keyValuePair key="registration_id" value="212818773_0_0_523" description="" />
   <keyValuePair key="route_design" value="TRUE" description="" />
   <keyValuePair key="target_device" value="xc7z020" description="" />
   <keyValuePair key="target_family" value="zynq" description="" />
@@ -19,11 +19,11 @@
   <keyValuePair key="tool_flow" value="Vivado" description="" />
  </section>
  <section name="user_environment" level="1" order="2" description="">
-  <keyValuePair key="cpu_name" value="Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz" description="" />
-  <keyValuePair key="cpu_speed" value="3492 MHz" description="" />
+  <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz" description="" />
+  <keyValuePair key="cpu_speed" value="2592 MHz" description="" />
   <keyValuePair key="os_name" value="Windows Server 2016 or Windows 10" description="" />
   <keyValuePair key="os_release" value="major release  (build 9200)" description="" />
-  <keyValuePair key="system_ram" value="17.000 GB" description="" />
+  <keyValuePair key="system_ram" value="16.000 GB" description="" />
   <keyValuePair key="total_processors" value="1" description="" />
  </section>
  <section name="ip_statistics" level="1" order="3" description="">
@@ -1514,7 +1514,7 @@
    <keyValuePair key="output_load" value="5.000000" description="" />
    <keyValuePair key="output_toggle" value="12.500000" description="" />
    <keyValuePair key="package" value="clg400" description="" />
-   <keyValuePair key="pct_clock_constrained" value="11.000000" description="" />
+   <keyValuePair key="pct_clock_constrained" value="9.000000" description="" />
    <keyValuePair key="pct_inputs_defined" value="8" description="" />
    <keyValuePair key="platform" value="nt64" description="" />
    <keyValuePair key="process" value="typical" description="" />
@@ -1925,8 +1925,8 @@
   <section name="usage" level="2" order="2" description="">
    <keyValuePair key="elapsed" value="00:00:32s" description="" />
    <keyValuePair key="hls_ip" value="0" description="" />
-   <keyValuePair key="memory_gain" value="616.418MB" description="" />
-   <keyValuePair key="memory_peak" value="1118.066MB" description="" />
+   <keyValuePair key="memory_gain" value="619.766MB" description="" />
+   <keyValuePair key="memory_peak" value="1117.984MB" description="" />
   </section>
  </section>
  <section name="unisim_transformation" level="1" order="9" description="">
@@ -2007,17 +2007,28 @@
  </section>
  <section name="vivado_usage" level="1" order="10" description="">
   <section name="gui_handlers" level="2" order="1" description="">
+   <keyValuePair key="basedialog_apply" value="1" description="" />
+   <keyValuePair key="basedialog_cancel" value="4" description="" />
+   <keyValuePair key="basedialog_ok" value="1" description="" />
    <keyValuePair key="basedialog_yes" value="1" description="" />
+   <keyValuePair key="boardchooser_board_table" value="1" description="" />
+   <keyValuePair key="boardchooser_reset_all_filters" value="2" description="" />
    <keyValuePair key="commandsinput_type_tcl_command_here" value="6" description="" />
-   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="1" description="" />
-   <keyValuePair key="paviews_project_summary" value="1" description="" />
+   <keyValuePair key="filesetpanel_file_set_panel_tree" value="6" description="" />
+   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="7" description="" />
+   <keyValuePair key="paviews_project_summary" value="2" description="" />
    <keyValuePair key="rdicommands_paste" value="2" description="" />
+   <keyValuePair key="settingsprojectgeneralpage_choose_device_for_your_project" value="2" description="" />
+   <keyValuePair key="settingsprojectgeneralpage_target_language" value="1" description="" />
   </section>
   <section name="java_command_handlers" level="2" order="2" description="">
-   <keyValuePair key="runbitgen" value="1" description="" />
+   <keyValuePair key="openblockdesign" value="1" description="" />
+   <keyValuePair key="runbitgen" value="2" description="" />
+   <keyValuePair key="toolssettings" value="3" description="" />
   </section>
   <section name="other_data" level="2" order="3" description="">
-   <keyValuePair key="guimode" value="1" description="" />
+   <keyValuePair key="batchmode" value="2" description="" />
+   <keyValuePair key="guimode" value="4" description="" />
   </section>
   <section name="project_data" level="2" order="4" description="">
    <keyValuePair key="constraintsetcount" value="3" description="" />
@@ -2042,7 +2053,7 @@
    <keyValuePair key="launch_simulation_vcs" value="0" description="" />
    <keyValuePair key="launch_simulation_xsim" value="0" description="" />
    <keyValuePair key="simulator_language" value="Mixed" description="" />
-   <keyValuePair key="srcsetcount" value="5" description="" />
+   <keyValuePair key="srcsetcount" value="6" description="" />
    <keyValuePair key="synthesisstrategy" value="Vivado Synthesis Defaults" description="" />
    <keyValuePair key="target_language" value="VHDL" description="" />
    <keyValuePair key="target_simulator" value="XSim" description="" />

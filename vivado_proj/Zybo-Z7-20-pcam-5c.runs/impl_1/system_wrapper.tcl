@@ -69,21 +69,21 @@ set rc [catch {
   create_project -in_memory -part xc7z020clg400-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Zybo-Z7-20-pcam-5c/proj/Zybo-Z7-20-pcam-5c.cache/wt [current_project]
-  set_property parent.project_path C:/Zybo-Z7-20-pcam-5c/proj/Zybo-Z7-20-pcam-5c.xpr [current_project]
-  set_property ip_repo_paths C:/Zybo-Z7-20-pcam-5c/repo [current_project]
+  set_property webtalk.parent_dir D:/Github/Zybo-Z7-20-pcam-5c/vivado_proj/Zybo-Z7-20-pcam-5c.cache/wt [current_project]
+  set_property parent.project_path D:/Github/Zybo-Z7-20-pcam-5c/vivado_proj/Zybo-Z7-20-pcam-5c.xpr [current_project]
+  set_property ip_repo_paths D:/Github/Zybo-Z7-20-pcam-5c/vivado_proj/Zybo-Z7-20-pcam-5c.ipdefs/repo_0 [current_project]
   update_ip_catalog
-  set_property ip_output_repo C:/Zybo-Z7-20-pcam-5c/proj/cache [current_project]
+  set_property ip_output_repo D:/Github/Zybo-Z7-20-pcam-5c/vivado_proj/Zybo-Z7-20-pcam-5c.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files -quiet C:/Zybo-Z7-20-pcam-5c/proj/Zybo-Z7-20-pcam-5c.runs/synth_1/system_wrapper.dcp
+  add_files -quiet D:/Github/Zybo-Z7-20-pcam-5c/vivado_proj/Zybo-Z7-20-pcam-5c.runs/synth_1/system_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/Zybo-Z7-20-pcam-5c/proj/Zybo-Z7-20-pcam-5c.srcs/sources_1/bd/system/system.bd
+  add_files D:/Github/Zybo-Z7-20-pcam-5c/vivado_proj/Zybo-Z7-20-pcam-5c.srcs/sources_1/bd/system/system.bd
   set_param project.isImplRun false
-  read_xdc C:/Zybo-Z7-20-pcam-5c/src/constraints/ZyboZ7_A.xdc
-  read_xdc C:/Zybo-Z7-20-pcam-5c/src/constraints/timing.xdc
-  read_xdc C:/Zybo-Z7-20-pcam-5c/src/constraints/auto.xdc
+  read_xdc D:/Github/Zybo-Z7-20-pcam-5c/vivado_proj/Zybo-Z7-20-pcam-5c.srcs/constrs_1/imports/constraints/ZyboZ7_A.xdc
+  read_xdc D:/Github/Zybo-Z7-20-pcam-5c/vivado_proj/Zybo-Z7-20-pcam-5c.srcs/constrs_1/imports/constraints/timing.xdc
+  read_xdc D:/Github/Zybo-Z7-20-pcam-5c/vivado_proj/Zybo-Z7-20-pcam-5c.srcs/constrs_1/imports/constraints/auto.xdc
   set_param project.isImplRun true
   link_design -top system_wrapper -part xc7z020clg400-1
   set_param project.isImplRun false
