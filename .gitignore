@@ -14,9 +14,6 @@
 !src/
 !digilent-vivado-scripts/
 
-# vivado workspace
-proj/*
-
 # ip repository
 repo/**
 !repo/vivado-library
